@@ -1,0 +1,26 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It reduced the effort to find the difference by narrowing down to the lines with differences between the two files. What i found ambiguous was to which file was the difference noticed, i understand that it depends the argument files passed to the diff command.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+One can reuse code from previous work toward a new project that you are doing. One can track bugs by comparing differences in each version saved. Keeps track of changes so that there is some auditing perfomed on your work.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+You might make the following mistakes when manually making commits: 1. the commit is bigger than a logical change. 2. The commit is too small to make up a logical change and 3. the commit might be combining multiple logical changes. 4. You can forget to make a commit when it is due.
+
+The pros are that 1. You control when to make a commit, since you know better than automated savings at certain intervals. 2. You commits can be on point, just right to make up one logical change and keep the versions at right number.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Because a logical change might impact more than one file, for example, adding a button on an html file and changing the CSS file to modify look of the button.
+
+How can you use the commands git log and git diff to view the history of files?
+Git log will display the list of commits that have occurred and with git diff i can see the differences between two commits.
+
+
+How might using version control make you more confident to make changes that could break something?
+This is a wonderful safeguard against accidentally breaking something due to a bug introduced on a commit, so that we may revert back to the latest commit that did not have the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+I will be using Git to manage my commits to and from my Github account and also clone other repositories from other users so that i may contribute to someone else's work or expand it into my own custom modification of such work.
+   
