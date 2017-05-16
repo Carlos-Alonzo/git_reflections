@@ -2,4 +2,10 @@ What happens when you initialize a repository? Why do you need to do it?
 You create a .git folder to begin the process of tracking files. This is needed in order to begin a repository and be able to sync to remote branch.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area adds a level of separation between the working folder and the repository to allow the user to select/choose what they want to be committed. The difference being that in the working directory there can be more files that one would want to commit at the time, so this allows for selecting which files to commit by bringing them to the staging area. 
+The staging area adds a level of separation between the working folder and the repository to allow the user to select/choose what they want to be committed. The difference being that in the working directory there can be more files that one would want to commit at the time, so this allows for selecting which files to commit by bringing them to the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can check what is currently there and compare the differences between it and master to confirm the change on the staged file/s
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branching is helping when trying experimental changes, or when updating the code for a new feature. They help by keeping separate version from the master branch, so as not to affect your production version if you think of software. 
