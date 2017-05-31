@@ -1,3 +1,15 @@
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Changes in a separate branch would be desired when a new feature or an incremental upgrade is being made so as not to disrupt your master branch while the work is being made. Changes into your master directly can be done when a bug is in the code and needs immediate fix, or somethign that would require urgency or that will not take long to address.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Collaborating in projects that do not use Git/Github would be much more difficult . Transfer and merging of work would rely on the performance of people being able to keep multiples copies of work, merge it and share it. 
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+So that you have visibility of what has happened to the Github repo without actually merging it with your local work.
+
+When would you want to use a remote repository rather than keeping all your work local?
+When you want to avail your work to other people so they can collaborate or fork your work.
+
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 You might not want to bring remote commits that might not pertain to your work.
 
